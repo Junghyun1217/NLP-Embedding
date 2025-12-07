@@ -6,7 +6,7 @@
 ## 💡 주요 기술 및 모델 구조
 
 | 분야 | 기술/라이브러리 | 역할 |
-| :--- | :--- | :--- | 👈 **이 구분선이 누락되면 표가 깨집니다.**
+| :--- | :--- | :--- |
 | **데이터셋** | $\text{Naver}$ Sentiment Movie Corpus ($\text{NSMC}$) | 15만 건의 영화 리뷰 및 긍정/부정(1/0) 레이블 |
 | **전처리** | $\text{Konlpy}$ ($\text{Okt}$ 형태소 분석기) | 한국어 형태소 분석 및 불용어(Stopwords) 제거 |
 | **핵심 모델** | **$\text{Embedding}$ $\rightarrow$ $\text{LSTM}$ $\rightarrow$ $\text{Dense}$** | 텍스트를 100차원 벡터로 변환하고 순서 정보를 학습 |
