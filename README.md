@@ -10,7 +10,7 @@
 | **데이터셋** | $\text{Naver}$ Sentiment Movie Corpus ($\text{NSMC}$) | 15만 건의 영화 리뷰 및 긍정/부정(1/0) 레이블 |
 | **전처리** | $\text{Konlpy}$ ($\text{Okt}$ 형태소 분석기) | 한국어 형태소 분석 및 불용어(Stopwords) 제거 |
 | **핵심 모델** | **$\text{Embedding}$ $\rightarrow$ $\text{LSTM}$ $\rightarrow$ $\text{Dense}$** | 텍스트를 100차원 벡터로 변환하고 순서 정보를 학습 |
-| **결정 요인** | **정수 인코딩, 패딩 ($\text{Max\_len}=30$)** | 모든 입력 시퀀스를 딥러닝 모델에 적합하도록 정규화 |
+| **결정 요인** | **정수 인코딩, 패딩** | 모든 입력 시퀀스를 딥러닝 모델에 적합하도록 정규화 |
 
 ## 🧠 모델 최종 성능 및 결과
 
